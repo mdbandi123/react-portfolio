@@ -38,6 +38,16 @@ const Navbar = () => {
                     </a>
                 </div>
             </nav>
+
+            {/* <section>
+                <div className={styles.div1}>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                    </ul>
+                </div>
+                <div className={styles.div2}>2</div>
+            </section> */}
         </>
     )
 }
