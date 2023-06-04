@@ -13,25 +13,22 @@
     align-items: center;
 }
 
-.linkContainer{
-    flex: 1;
+.navList{
+    padding: 0;
+    list-style: none;
     display: flex;
-    justify-content: space-evenly;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     column-gap: 2rem;
-    
 }
 
-.linkContainer> a{
+.navList>li>a{
     text-decoration: none;
-
 }
 
 
 .socialsContainer{
     margin-top: 2rem;
-    flex: 1;
     row-gap: 1rem;
 
 }

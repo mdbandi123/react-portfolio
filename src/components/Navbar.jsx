@@ -14,9 +14,17 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className={styles.linkContainer}>
-                    <a id={styles.contactLink} href="">Contact</a>
-                    <a id={styles.projectsLink} href="">Projects</a>
-                    <a id={styles.aboutLink} href="">About</a>
+                    <ul className={styles.navList}>
+                        <li>
+                            <a id={styles.contactLink} href="">Contact</a>
+                        </li>
+                        <li>
+                            <a id={styles.projectsLink} href="">Projects</a>
+                        </li>
+                        <li>
+                            <a id={styles.aboutLink} href="">About</a>
+                        </li>
+                    </ul>
                 </div>
                 <div className={styles.socialsContainer}>
                     <a href="https://www.linkedin.com/in/michael-dave-sumang-0532b2259/" target='blank'>
