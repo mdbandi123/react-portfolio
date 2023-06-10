@@ -1,6 +1,6 @@
 .navContainer{
     position: fixed;
-    left: 1.5rem;
+    left: 1rem;
     height: 100vh;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .logoContainer>a>img{
-    width: 5rem;
+    width: 3.5rem;
 }
 
 .navList{
@@ -53,14 +53,14 @@
 }
 
 .socialsContainer> a > img{
-    width: 2.5rem;
+    width: 2rem;
 }
 
 
 a{
     font-family: Raleway, Arial;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: .8rem;
     color: black;
     transition: filter .25s;
 }
