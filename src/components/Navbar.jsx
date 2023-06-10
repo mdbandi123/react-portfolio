@@ -1,8 +1,8 @@
-import styles from '../components/styles/Navbar.module.css';
+import styles from './styles/Navbar.module.css';
 import linkedinIcon from '../assets/linkedin-icon.svg';
 import githubIcon from '../assets/github-icon.svg';
 import discordIcon from '../assets/discord-icon.svg';
-import siteIcon from '../assets/site-icon-bw.svg';
+import siteIcon from '../assets/site-icon-bg.svg';
 
 const Navbar = () => {
     return(
@@ -14,9 +14,17 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className={styles.linkContainer}>
-                    <a id={styles.contactLink} href="">Contact</a>
-                    <a id={styles.projectsLink} href="">Projects</a>
-                    <a id={styles.aboutLink} href="">About</a>
+                    <ul className={styles.navList}>
+                        <li>
+                            <a id={styles.contactLink} href="">Contact</a>
+                        </li>
+                        <li>
+                            <a id={styles.projectsLink} href="">Projects</a>
+                        </li>
+                        <li>
+                            <a id={styles.aboutLink} href="">About</a>
+                        </li>
+                    </ul>
                 </div>
                 <div className={styles.socialsContainer}>
                     <a href="https://www.linkedin.com/in/michael-dave-sumang-0532b2259/" target='blank'>
@@ -30,6 +38,16 @@ const Navbar = () => {
                     </a>
                 </div>
             </nav>
+
+            {/* <section>
+                <div className={styles.div1}>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                    </ul>
+                </div>
+                <div className={styles.div2}>2</div>
+            </section> */}
         </>
     )
 }
