@@ -1,6 +1,6 @@
 .navContainer{
     position: fixed;
-    left: 2.5rem;
+    left: 1.5rem;
     height: 100vh;
 }
 
@@ -11,6 +11,7 @@
 
 .linkContainer{
     display: flex;
+    height: 500px;
     flex:1;
     margin-bottom: 2rem;
 }
@@ -23,7 +24,7 @@
 }
 
 .logoContainer>a>img{
-    width: 6.5rem;
+    width: 5rem;
 }
 
 .navList{

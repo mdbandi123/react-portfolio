@@ -1,0 +1,71 @@
+span{
+    font-family: roboto;
+}
+
+.heroSection{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6.5rem;
+} 
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.3rem;
+}
+
+.heroTextOne,
+.heroTextTwo,
+.heroTextThree{
+    display: flex;
+}
+
+.heroTextOne > span,
+.heroTextTwo > span ,
+.heroTextThree > span{
+    padding: .8em;
+    border-radius: 10px;
+}
+
+.heroTextOne{
+    justify-content: flex-start;
+}
+
+.heroTextOne>span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #FFB772;
+}
+
+.heroTextTwo{
+    justify-content: center;
+}
+
+.heroTextTwo > span{
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #84FF85;
+
+}
+
+.heroTextTwo .lastNameText{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.heroTextThree{
+    justify-content: flex-end;
+}
+
+.heroTextThree>span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #C28CFF;
+}
+
+
+
+

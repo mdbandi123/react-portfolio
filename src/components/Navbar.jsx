@@ -1,8 +1,8 @@
-import styles from '../components/styles/Navbar.module.css';
+import styles from './styles/Navbar.module.css';
 import linkedinIcon from '../assets/linkedin-icon.svg';
 import githubIcon from '../assets/github-icon.svg';
 import discordIcon from '../assets/discord-icon.svg';
-import siteIcon from '../assets/site-icon-bw.svg';
+import siteIcon from '../assets/site-icon-bg.svg';
 
 const Navbar = () => {
     return(
