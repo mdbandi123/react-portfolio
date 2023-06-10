@@ -1,5 +1,5 @@
 span{
-    font-family: roboto;
+    font-family: Fjalla One;
 }
 
 .heroSection{
@@ -14,13 +14,13 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 1.3rem;
 }
 
 .heroTextOne,
 .heroTextTwo,
 .heroTextThree{
     display: flex;
+    justify-content: center;
 }
 
 .heroTextOne > span,
@@ -30,40 +30,38 @@ span{
     border-radius: 10px;
 }
 
-.heroTextOne{
-    justify-content: flex-start;
-}
 
-.heroTextOne>span{
-    font-size: 1.2rem;
-    font-weight: 500;
-    background-color: #FFB772;
-}
-
-.heroTextTwo{
-    justify-content: center;
-}
-
-.heroTextTwo > span{
+.heroTextOne>span,
+.heroTextThree>span{
     font-size: 1.5rem;
     font-weight: 500;
-    background-color: #94e994;
+}
+
+
+.heroTextTwo > span{
+    font-weight: 500;
+    background-color: #f8e073;
+    /* background-color: #94e994; */
+    /* background-color: #C28CFF; */
 
 }
 
 .heroTextTwo .lastNameText{
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
-.heroTextThree{
-    justify-content: flex-end;
+.isBlinkingOn{
+    color: rgb(143, 143, 143);
+    opacity: 1;
+    font-weight: 700;
+    transition: opacity .25s;
 }
 
-.heroTextThree>span{
-    font-size: 1.2rem;
-    font-weight: 500;
-    background-color: #C28CFF;
+.isBlinkingOff{
+    color: rgb(143, 143, 143);
+    opacity: 0;
+    transition: opacity .25s;
 }
 
 
