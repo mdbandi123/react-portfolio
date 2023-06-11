@@ -86,7 +86,7 @@ a:hover{
 }
 
 /* testcode */
-
+/* 
 section{
     display: flex;
     flex-direction: column;
@@ -96,19 +96,19 @@ section{
 .div1{
     background-color: #52D053;
     flex:1;
-}
+} */
 
-.div1{
+/* .div1{ */
     /* margin:0;
     padding:0; */
-    display: flex;
+    /* display: flex; */
     /* writing-mode: vertical-rl;
     transform: rotate(180deg); */
     /* list-style: none; */
     /* justify-content: space-evenly; */
-}
+/* } */
 
-.div1>ul{
+/* .div1>ul{
     margin:0;
     padding:0;
     display: flex;
@@ -121,6 +121,6 @@ section{
 .div2{
     background-color: #527ed0;
     flex:1;
-}
+} */
 
 
