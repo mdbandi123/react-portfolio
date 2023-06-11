@@ -9,7 +9,7 @@ const Navbar = () => {
         <>
             <nav className={styles.navContainer}>
                 <div className={styles.logoContainer}>
-                    <a href="" target='blank'>
+                    <a href="#hero-page" target='blank'>
                         <img src={siteIcon} alt="site-icon" />
                     </a>
                 </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
                             <a id={styles.projectsLink} href="">Projects</a>
                         </li>
                         <li>
-                            <a id={styles.aboutLink} href="">About</a>
+                            <a id={styles.aboutLink} href="#about-page">About</a>
                         </li>
                     </ul>
                 </div>
@@ -38,16 +38,6 @@ const Navbar = () => {
                     </a>
                 </div>
             </nav>
-
-            {/* <section>
-                <div className={styles.div1}>
-                    <ul>
-                        <li>1</li>
-                        <li>2</li>
-                    </ul>
-                </div>
-                <div className={styles.div2}>2</div>
-            </section> */}
         </>
     )
 }

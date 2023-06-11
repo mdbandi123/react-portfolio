@@ -12,9 +12,10 @@ const Hero = () => {
 
         return () => clearInterval(interval);
     },[isBlinking])
+
     return(
         <>
-            <section className={styles.heroSection}>
+            <section className={styles.heroSection} id='hero-page'>
                 <div className={styles.flexContainer}>
                     <div className={styles.heroTextOne}>
                         <span>Hello, World!</span>

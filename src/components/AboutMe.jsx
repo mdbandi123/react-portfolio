@@ -4,7 +4,7 @@ import mdPic from '../assets/md-pic.png';
 const AboutMe = () => {
     return(
         <>
-        <section className={styles.aboutMeSection}>
+        <section className={styles.aboutMeSection} id='about-page'>
             <div className={styles.explainerContainer}>
                 <div>
                     <h2>About Me</h2>

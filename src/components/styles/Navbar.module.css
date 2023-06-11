@@ -72,17 +72,17 @@ a:hover{
 
 #contactLink:hover{
     filter: grayscale(0) opacity(1);
-    color: #E6770B;
+    color: black;
 }
 
 #projectsLink:hover{
     filter: grayscale(0) opacity(1);
-    color: #52D053;
+    color: black;
 }
 
 #aboutLink:hover{
     filter: grayscale(0) opacity(1);
-    color: #765898;
+    color: black;
 }
 
 /* testcode */
