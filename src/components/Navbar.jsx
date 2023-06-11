@@ -4,7 +4,7 @@ import githubIcon from '../assets/github-icon.svg';
 import discordIcon from '../assets/discord-icon.svg';
 import siteIcon from '../assets/site-icon-bg.svg';
 
-const Navbar = (props) => {
+const Navbar = () => {
     return(
         <>
             <nav className={styles.navContainer}>
