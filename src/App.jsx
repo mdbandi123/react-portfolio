@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import AboutMe from "./components/AboutMe";
 import './App.css';
 
 
@@ -8,6 +9,7 @@ const App = () => {
     <>
     <Navbar></Navbar>
     <Hero></Hero>
+    <AboutMe></AboutMe>
     </>
   )
 }
