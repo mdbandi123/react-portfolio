@@ -4,7 +4,7 @@ html,body{
     scroll-behavior: smooth;
 }
 
-h3,h2,h4{
+h3,h2,h4,input,textarea,button{
     font-family: IBM Plex Sans Condensed;
 }
 
