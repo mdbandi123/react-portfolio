@@ -1,27 +1,14 @@
+
+
 .aboutMeSection{
     display: flex;
     flex-direction: column;
     margin-left: 4.5rem;
 }
 
-.explainerContainer{
-    width: 80%;
-    margin: 0 auto;
-    background-color: white;
-    padding: .2rem 1rem .5rem;
-    border-radius: 10px;
-    font-size: .9rem;
-    font-family: Quicksand;
-    font-weight: 500;
-}
-
-.explainerContainer h2{
-    font-family: Fjalla One;
-}
 
 .explainerContainer  p {
     margin-bottom: 1.5em;
-    line-height: 1.6em;
 }
 .pfpContainer{
     background-color: #f8e073;
@@ -37,13 +24,6 @@
     filter: grayscale(20%);
 }
 
-.skillsContainer{
-    width: 80%;
-    margin: 1rem auto;
-    background-color: rgb(24, 24, 24);
-    padding: .2rem 1rem .5rem;
-    border-radius: 10px;
-}
 
 .skillsContainer ul{
     margin: 0;
@@ -66,7 +46,6 @@
 }
 
 .skillsContainer h3{
-    font-family: Fjalla One;
     color: white;
     margin-bottom: .5em;
 }

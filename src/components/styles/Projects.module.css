@@ -1,0 +1,67 @@
+.projectsSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 4.5rem;
+}
+
+.skillsContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    padding: .5rem;
+}
+
+.titleContainer{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    /* flex: 1; */
+}
+
+.linkContainer{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: black; */
+    /* flex: 1; */
+
+}
+
+.linkContainer  i{
+    font-size: 2rem;
+}
+
+.descriptionContainer{
+    padding: .5rem;
+}
+
+.bodyContainer{
+    display: flex;
+}
+
+.imageContainer {
+    position: relative;
+    padding: 1rem 0;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    margin: 1em 0 .5em;
+}
+
+.imgOne{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
