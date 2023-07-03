@@ -19,3 +19,10 @@
     font-weight: 400;
     line-height: 1.3em;
 }
+/* 
+@media (min-width: 1190px) {
+    .card,
+    .cardBlack{
+        width: auto;
+    }
+} */

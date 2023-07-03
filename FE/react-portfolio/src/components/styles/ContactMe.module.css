@@ -2,14 +2,38 @@
 .ContactMeSection{
     display: flex;
     flex-direction: column;
-    margin-left: 4.5rem;
     color: white;
-    margin-top: 5rem;
+    margin-top: 7rem;
+    transition: 1s all;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition-delay: 200ms;
+}
+
+
+.formContainer{
+    width: 80%;
+    margin: 1rem auto;
+    background-color: rgb(24, 24, 24);
+    padding: .2rem 1rem 1.5rem;
+    border-radius: 10px;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.3em;
+
 }
 
 .contactForm{
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     row-gap: .5rem;
@@ -36,7 +60,14 @@
     border: none;
     background-color: #e6e6e6;
     border-radius: 10px;
-    padding: .2em;
+    padding: .5em;
     font-size: .95rem;
     font-weight: 500;
+    margin-top: 3.5rem;
+}
+
+@media (min-width:1500px){
+    .formContainer{
+        width: 70%;
+    }
 }
