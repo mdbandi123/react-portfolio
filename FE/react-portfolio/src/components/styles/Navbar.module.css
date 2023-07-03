@@ -85,42 +85,23 @@ a:hover{
     color: black;
 }
 
-/* testcode */
-/* 
-section{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+@media (min-width: 630px){
+    .navContainer{
+        left: 1.3rem;
+    }
+
+    a{
+        font-size: 1rem;
+    }
 }
 
-.div1{
-    background-color: #52D053;
-    flex:1;
-} */
+@media (min-width: 1190px){
+    .navContainer{
+        left: 1.5rem;
+    }
 
-/* .div1{ */
-    /* margin:0;
-    padding:0; */
-    /* display: flex; */
-    /* writing-mode: vertical-rl;
-    transform: rotate(180deg); */
-    /* list-style: none; */
-    /* justify-content: space-evenly; */
-/* } */
-
-/* .div1>ul{
-    margin:0;
-    padding:0;
-    display: flex;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    list-style: none;
-    justify-content: space-evenly;
+    a{
+        font-size: 1.1rem;
+    }
 }
-
-.div2{
-    background-color: #527ed0;
-    flex:1;
-} */
-
 

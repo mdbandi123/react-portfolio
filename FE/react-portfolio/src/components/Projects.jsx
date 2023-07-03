@@ -1,14 +1,20 @@
 import Card from './UI/Card';
 import styles from './styles/Projects.module.css';
 import servisAdmin from '../assets/servis-admin.jpg';
-import servisCustomer from '../assets/servis-customer.jpg';
+import portfolio from '../assets/portfolio.jpg';
 import rentABike from '../assets/rent-a-bike.jpg';
+import { useState } from 'react';
+import useObserver from './hooks/useObserver';
 
 const Projects = () => {
+    const [containerRefOne, isVisibleOne] = useObserver();
+    const [containerRefTwo, isVisibleTwo] = useObserver();
+    const [containerRefThree, isVisibleThree] = useObserver();
+
     return(
         <>
             <section className={styles.projectsSection} id='projects-page'>
-                <Card>
+                <div className={`${styles.skillBodyContainer} ${isVisibleOne?styles.show:styles.hidden}`} ref={containerRefOne}>
                     <div className={styles.skillsContainer}>
                         <div className={styles.headerContainer}>
                             <div className={styles.titleContainer}>
@@ -29,9 +35,8 @@ const Projects = () => {
                             <img className={styles.imgOne} src={servisAdmin} alt="servis-admin" />
                         </div>
                     </div>
-                </Card>
-
-                <Card>
+                </div>
+                <div className={`${styles.skillBodyContainer} ${isVisibleTwo?styles.show:styles.hidden}`} ref={containerRefTwo}>
                     <div className={styles.skillsContainer}>
                         <div className={styles.headerContainer}>
                             <div className={styles.titleContainer}>
@@ -52,9 +57,9 @@ const Projects = () => {
                             <img className={styles.imgOne} src={rentABike} alt="rent-a-bike" />
                         </div>
                     </div>
-                </Card>
+                </div>
 
-                <Card>
+                <div className={`${styles.skillBodyContainer} ${isVisibleThree?styles.show:styles.hidden}`} ref={containerRefThree}>
                     <div className={styles.skillsContainer}>
                         <div className={styles.headerContainer}>
                             <div className={styles.titleContainer}>
@@ -72,10 +77,10 @@ const Projects = () => {
                     </div>
                     <div className={styles.bodyContainer}>
                         <div className={styles.imageContainer}>
-                            <img className={styles.imgOne} src={rentABike} alt="portfolio" />
+                            <img className={styles.imgOne} src={portfolio} alt="portfolio" />
                         </div>
                     </div>
-                </Card>
+                </div>
             </section>
         </>
     )

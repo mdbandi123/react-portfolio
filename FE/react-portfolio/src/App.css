@@ -4,14 +4,19 @@ html,body{
     scroll-behavior: smooth;
 }
 
-h3,h2,h4,input,textarea,button{
-    font-family: IBM Plex Sans Condensed;
+body{
+    margin-left: 4.5rem;
+}
+
+h3,h2,h4,input,textarea,button, a{
+    font-family: Assistant;
 }
 
 span{
-    font-family: Fjalla One;
+    font-family: Inter;
 }
 
 p{
-    font-family: IBM Plex Sans;
+    font-family: Assistant;
+    color:#353535
 }

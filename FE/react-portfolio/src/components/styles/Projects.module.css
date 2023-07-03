@@ -1,8 +1,43 @@
 .projectsSection{
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
-    margin-left: 4.5rem;
+    margin-top: 7rem;
+    width: 100%;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+}
+
+.skillsHeaderContainer{
+    color: white;
+    width: 80%;
+    margin: 1rem auto;
+    background-color: rgb(24, 24, 24);
+    padding: .2rem 1rem .5rem;
+    border-radius: 10px;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+.skillBodyContainer{
+    width: 80%;
+    margin: 1rem auto;
+    background-color: white;
+    padding: .2rem 1rem .5rem;
+    border-radius: 10px;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    transition: all 1s;
+    transition-delay: 100ms;
 }
 
 .skillsContainer{
@@ -10,6 +45,7 @@
     display: flex;
     flex-direction: column;
 }
+
 
 .headerContainer{
     display: flex;
@@ -38,8 +74,9 @@
     font-size: 2rem;
 }
 
-.descriptionContainer{
-    padding: .5rem;
+.descriptionContainer > p{
+    padding: 0 .5rem .5rem .5rem;
+    margin: 0;
 }
 
 .bodyContainer{
@@ -61,6 +98,50 @@
 }
 
 
+@media (min-width:700px){
+    .linkContainer  i{
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width:900px){
+
+    .descriptionContainer p{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:1000px){
+    .linkContainer  i{
+        font-size: 2.4rem;
+    }
+}
+
+@media (min-width:1250px){
+    .titleContainer h3{
+        font-size: 1.3rem;
+    }
+    .linkContainer  i{
+        font-size: 2.7rem;
+    }
+}
+
+@media (min-width:1300px) {
+    .descriptionContainer p{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1500px){
+    .skillsHeaderContainer,
+    .skillBodyContainer{
+        width: 70%;
+    }
+
+    .linkContainer  i{
+        font-size: 3rem;
+    }
+}
 
 
 

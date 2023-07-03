@@ -3,12 +3,62 @@
 .aboutMeSection{
     display: flex;
     flex-direction: column;
-    margin-left: 4.5rem;
+}
+
+.aboutMeSection div{
+    transition: 1s all;
 }
 
 
-.explainerContainer  p {
+.aboutMeCard{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 1rem auto;
+    padding: .2rem 1rem .5rem;
+    border-radius: 10px;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+
+
+.hidden>.skillsCard{
+    opacity: 0;
+    filter: blur(5px);
+}
+
+.show>.skillsCard{
+    opacity: 1;
+    filter: blur(0);
+    transition-delay: 200ms;
+}
+
+.hidden>.aboutMeCard{
+    opacity: 0;
+    filter: blur(5px);
+}
+.show>.aboutMeCard{
+    opacity: 1;
+    filter: blur(0);
+}
+
+.skillsCard{
+    width: 80%;
+    margin: 1rem auto;
+    background-color: rgb(24, 24, 24);
+    padding: .2rem 1rem .5rem;
+    border-radius: 10px;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+
+.explainerContainer {
     margin-bottom: 1.5em;
+    text-align: justify;
 }
 .pfpContainer{
     background-color: #f8e073;
@@ -43,9 +93,102 @@
     color: white;
     font-size: 1.7rem;
     padding: 1rem;
+    transition: .40s color;
+}
+
+.skillsContainer i:hover{
+    color:#f8e073;
 }
 
 .skillsContainer h3{
     color: white;
     margin-bottom: .5em;
+}
+
+@media (min-width: 780px) {
+    .pfpImg{
+        width: 50%;
+    }
+
+    .explainerContainer {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    
+    .explainerContainer p{
+        margin: 1.5em 0;
+    }
+
+    .skillsContainer i{
+        font-size: 2rem;
+    }
+    
+}
+
+@media (min-width: 890px){
+
+
+    .explainerContainer{
+        padding-right: 1.5rem;
+        width: 50%;
+    }
+
+    .pfpContainer{
+        width: 50%;
+    }
+
+    .aboutMeCard{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pfpImg{
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .explainerContainer p{
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+
+    .skillsContainer i{
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 1250px) {
+
+    .explainerContainer{
+        width: 75%;
+    }
+
+    .explainerContainer p{
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+
+    .skillsContainer h3{
+        font-size: 1.3rem;
+    }
+
+
+
+
+}
+
+@media (min-width: 1500px){
+    .explainerContainer p{
+        padding-right: 4.5em;
+    }
+
+    .aboutMeCard{
+        width: 70%;
+    }
+
+    .skillsCard{
+        width: 70%;
+    }
 }
