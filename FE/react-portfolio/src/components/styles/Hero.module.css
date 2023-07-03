@@ -148,13 +148,6 @@
     }
 }
 
-@media (prefers-reduced-motion){
-    .hiddenLeft,
-    .hiddenRight{
-        transition: none;
-    }
-}
-
 
 
 
