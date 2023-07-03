@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div className={styles.linkContainer}>
                     <ul className={styles.navList}>
                         <li>
-                            <a id={styles.contactLink} href="">Contact</a>
+                            <a id={styles.contactLink} href="about-page">Contact</a>
                         </li>
                         <li>
                             <a id={styles.projectsLink} href="#projects-page">Projects</a>

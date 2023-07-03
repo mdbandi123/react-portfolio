@@ -21,7 +21,7 @@ const Projects = () => {
                                 <h3>SerVIS</h3>
                             </div>
                             <div className={styles.linkContainer}>
-                                <a href="">
+                                <a href="https://github.com/mdbandi123/servis">
                                     <i className="devicon-github-original-wordmark"></i>
                                 </a>
                             </div>
@@ -43,7 +43,7 @@ const Projects = () => {
                                 <h3>Rent-a-bike</h3>
                             </div>
                             <div className={styles.linkContainer}>
-                                <a href="">
+                                <a href="https://github.com/mdbandi123/bchain-app">
                                     <i className="devicon-github-original-wordmark"></i>
                                 </a>
                             </div>
@@ -66,7 +66,7 @@ const Projects = () => {
                                 <h3>Personal Portfolio</h3>
                             </div>
                             <div className={styles.linkContainer}>
-                                <a href="">
+                                <a href="https://github.com/mdbandi123/react-portfolio">
                                     <i className="devicon-github-original-wordmark"></i>
                                 </a>
                             </div>
