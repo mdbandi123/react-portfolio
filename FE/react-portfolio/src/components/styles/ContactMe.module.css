@@ -28,6 +28,7 @@
     font-size: .9rem;
     font-weight: 400;
     line-height: 1.3em;
+    position: relative;
 
 }
 
@@ -64,7 +65,34 @@
     font-size: .95rem;
     font-weight: 500;
     margin-top: 3.5rem;
+    transition: filter .25s;
 }
+
+.contactForm button:hover{
+    filter: grayscale(100%) opacity(.60);
+}
+
+.overlay{
+    background-color: grey;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .7;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: opacity .2s;
+
+}
+
+.overlayShown{
+    opacity: 30%;
+    visibility:visible;
+}
+
+
 
 @media (min-width:1500px){
     .formContainer{
